@@ -87,7 +87,7 @@
 /* Section 2 */
 
 .background2 {
-    min-height: 100vh;
+    min-height: 102vh;
     background-image: url("Images/Gallery.PNG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,7 +149,7 @@
 }
 
 .section3 {
-    min-height: 83vh;
+    min-height: 86vh
 }
 
 .s3-title h1 {
@@ -215,7 +215,7 @@
 
 .background4 {
     background-color: rgba(0, 0, 0, 0.787);
-    min-height: 10vh;
+    height: 16vh;
 }
 
 .footer p {
