@@ -1,0 +1,311 @@
+/* Nav Bar */
+
+.navbar {
+    min-height: 10vh;
+}
+
+.background .navbar-nav {
+    margin-left: auto;
+    margin-right: 5rem;
+    font-size: 1.4rem;
+}
+
+.background .navbar-brand {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    margin-left: 5rem;
+    font-size: 1.4rem;
+}
+
+.background .nav-item {
+    padding-left: 2rem;
+}
+
+.background .nav-item :hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+.background .nav-link {
+    color: rgb(53, 53, 53) !important;
+}
+
+
+/* Section 1 */
+
+.background {
+    background-color: #C9B9A7;
+}
+
+.section1 {
+    min-height: 88vh;
+}
+
+.section1 .row {
+    min-height: 90vh;
+}
+
+.s1-info {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+
+.s1-info h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #D54842;
+}
+
+.s1-info p {
+    font-size: 2.2rem;
+    color: rgb(26, 26, 26);
+}
+
+.s1-info .btn {
+    background: #D54842;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.4rem;
+}
+
+.s1-image {
+    margin-top: auto;
+}
+
+.boxing-image {
+    object-fit: contain;
+    transform: scaleX(-1);
+    width: 120%;
+    height: 120%;
+}
+
+
+/* Section 2 */
+
+.background2 {
+    min-height: 100vh;
+    background-image: url("Images/Gallery.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section2 {
+    min-height: 100vh;
+}
+
+.s2-title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.s2-title h1 {
+    font-size: 3.4rem;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+}
+
+.s2-title p {
+    font-size: 2rem;
+    color: rgb(219, 219, 219);
+    padding: 0 20rem 0 20rem;
+}
+
+.benefits-icon {
+    width: 120px;
+    height: 120px;
+    border: #D54842 10px solid;
+    background-color: #D54842;
+}
+
+.s2-info {
+    color: white;
+    margin-left: -12px;
+}
+
+.s2-info h1 {
+    font-size: 1.6rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.s2-info p {
+    font-size: 1.2rem;
+    color: rgb(224, 224, 224);
+}
+
+.s2-col-spacer {
+    margin-bottom: 5rem;
+}
+
+
+/* Section3 */
+
+.background3 {
+    background-color: whitesmoke;
+}
+
+.section3 {
+    min-height: 100vh;
+}
+
+.s3-title h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+}
+
+.google-btn {
+    width: 15rem;
+    color: black;
+    border: 4px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.apple-btn {
+    width: 15rem;
+    color: white;
+    border: 4px solid rgb(0, 0, 0);
+    background-color: black;
+    border-radius: 10px;
+}
+
+.google {
+    margin-right: 3rem;
+}
+
+.google-btn h3,
+.apple-btn h3 {
+    font-size: 1.4rem;
+    line-height: 50%;
+    font-weight: 600;
+}
+
+.google-btn p,
+.apple-btn p {
+    font-size: 1.2rem;
+    line-height: 50%;
+}
+
+.s3-info p {
+    font-size: 1.8rem;
+}
+
+.s3-info h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #D54842;
+}
+
+.s3-info {
+    margin-top: 3rem;
+}
+
+#qr-img {
+    object-fit: contain;
+    width: 80%;
+}
+
+
+/* Footer */
+
+.footer p {
+    font-size: 1.4rem;
+    color: #6C757D;
+}
+
+.footer .nav-link {
+    color: #51575d;
+}
+
+hr.solid {
+    border-top: 3px solid rgb(149, 149, 149);
+}
+
+footer .navbar-nav {
+    font-size: 1.4rem;
+}
+
+.footer .nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1199px) {
+    .s2-title p {
+        padding: 0 10rem 0 10rem;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .google {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .google {
+        margin-left: 2.4rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-brand {
+        margin-left: 0rem;
+    }
+    .s1-info {
+        margin-top: 4rem;
+    }
+    .s2-title p {
+        padding: 0;
+    }
+    .s2-title {
+        margin-top: 2rem;
+    }
+    .s3-title h1 {
+        text-align: center;
+    }
+    .google {
+        margin-left: 0;
+        margin-bottom: 1.2rem;
+    }
+    .s3-info {
+        text-align: center;
+    }
+    #qr-img {
+        width: 40%;
+        src: url("/Icons/qr-code.png");
+    }
+    #mood-icon {
+        width: 2rem;
+    }
+    .benefits-icon {
+        width: 90px;
+        height: 90px;
+    }
+    .s2-info h1 {
+        font-size: 1.2rem;
+        font-family: 'Chakra Petch', sans-serif;
+    }
+    .s2-info p {
+        font-size: .8rem;
+        color: rgb(224, 224, 224);
+    }
+    .s2-col-spacer {
+        margin-bottom: 2rem;
+    }
+    #qr-img {
+        object-fit: contain;
+        width: 0%;
+    }
+    .footer .nav-link {
+        font-size: 1.2rem;
+    }
+}
