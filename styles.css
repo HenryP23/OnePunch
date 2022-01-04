@@ -149,7 +149,7 @@
 }
 
 .section3 {
-    min-height: 100vh;
+    min-height: 83vh;
 }
 
 .s3-title h1 {
@@ -213,13 +213,18 @@
 
 /* Footer */
 
+.background4 {
+    background-color: rgba(0, 0, 0, 0.787);
+    min-height: 10vh;
+}
+
 .footer p {
     font-size: 1.4rem;
-    color: #6C757D;
+    color: rgba(255, 255, 255, 0.815);
 }
 
 .footer .nav-link {
-    color: #51575d;
+    color: white;
 }
 
 hr.solid {
